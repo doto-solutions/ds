@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "lab-ds"
+version = "0.0.1"
+description = "LAB project data science repository"
+authors = ["Nikola Rusakov <nikola.rusakov@rusakov.cz>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "lab_transformations"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-prql = "^0.2.3"
+pyprql = "^0.5.13"
+dagster = "^1.1.7"
+dagit = "^1.1.7"
+
+[tool.poetry.group.dev.dependencies]
+tqdm = "^4.64.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
