@@ -5,17 +5,23 @@ description = "LAB project data science repository"
 authors = ["Nikola Rusakov <nikola.rusakov@rusakov.cz>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "lab_transformations"}]
+packages = [{include = "lab_ds"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 dbt-prql = "^0.2.3"
 pyprql = "^0.5.13"
+polars= "^0.15.11"
 dagster = "^1.1.7"
 dagit = "^1.1.7"
+terminusdb-client = {extras = ["dataframe"], version = "^10.2.0"}
+numpy = "^1.24.1"
+csvkit = "^1.1.0"
+dbt-core = "1.2.4"
 
 [tool.poetry.group.dev.dependencies]
 tqdm = "^4.64.1"
+jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
