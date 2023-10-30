@@ -13,3 +13,5 @@ conda requirements.txt can be installed to poetry with:
 
 with removed comments: 
 ```poetry add $(sed -e 's/#.*//' -e '/^$/ d' < requirements.txt)```
+
+```poetry export --without-hashes --format=requirements.txt > requirements-poetry.txt```

@@ -18,6 +18,7 @@ terminusdb-client = {extras = ["dataframe"], version = "^10.2.0"}
 numpy = "^1.24.1"
 csvkit = "^1.1.0"
 dbt-core = "1.2.4"
+agate-dbf = "0.2.2"
 
 [tool.poetry.group.dev.dependencies]
 tqdm = "^4.64.1"
