@@ -10,6 +10,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10.13"
 polars= "^0.19.0"
+pyprql = "^0.10.0"
 dagster = "^1.1.7"
 
 
