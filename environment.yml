@@ -1,23 +1,28 @@
 name: test
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - bzip2=1.0.8
-  - ca-certificates
-  - expat=2.5.0
-  - ipykernel 6.25.0
-  - libcxx=14.0.6
-  - libffi=3.4.4
   - ncurses=6.4
-  - openssl=3.0.11
-  - pip=23.3
-  - python=3.10.13
-  - poetry=1.*
+  - libffi=3.4.4
   - readline=8.2
+  - wheel=0.37.1
+  - zlib=1.2.13
+  - pip=23.3
+  - ca-certificates
+  - openssl
+  - expat=2.5.0
+  - bzip2=1.0.8
   - setuptools=68.0.0
-  - sqlite=3.41.2
   - tk=8.6.12
   - tzdata=2023c
-  - wheel=0.37.1
   - xz=5.4.2
-  - zlib=1.2.13
+  - poetry=1
+  - pyarrow=13.0.0
+  - libcxx=14.0.6
+  - python=3.10.13
+  - sqlite=3.41.2
+  - ipykernel==6.25.0
+  - matplotlib=3.8.0
+  - jupysql
+# prefix: /Users/nr/anaconda3/envs/test
