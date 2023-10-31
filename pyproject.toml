@@ -12,6 +12,8 @@ python = "^3.10.13"
 polars= "^0.19.0"
 pyprql = "^0.10.0"
 dagster = "^1.1.7"
+jupysql = "0.10.2"
+pyarrow = "13.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
