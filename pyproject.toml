@@ -8,21 +8,15 @@ readme = "README.md"
 # packages = [{include = "lab_ds"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-dbt-prql = "^0.2.3"
-pyprql = "^0.5.13"
+python = "^3.10.13"
 polars= "^0.19.0"
 dagster = "^1.1.7"
-dagit = "^1.1.7"
-terminusdb-client = {extras = ["dataframe"], version = "^10.2.0"}
-numpy = "^1.24.1"
-csvkit = "^1.1.0"
-dbt-core = "1.2.4"
-agate-dbf = "0.2.2"
+
 
 [tool.poetry.group.dev.dependencies]
 tqdm = "^4.64.1"
-jupyter = "^1.0.0"
+python-dotenv = "^1.0.0"
+
 
 [build-system]
 requires = ["poetry-core"]
