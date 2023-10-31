@@ -2,6 +2,17 @@
 
 ## Installation
 
+just 
+
+```bash
+conda env create -f environment.yml
+
+conda activate test
+
+poetry install
+```
+
+<!--
 recreate (lab) env in conda:
 ```conda create --name lab --file requirements.txt```
 ```conda env create -f environment.yml``` // --name off
@@ -18,5 +29,6 @@ with removed comments:
 
 ```poetry export --without-hashes --format=requirements.txt > requirements-poetry.txt```
 
+-->
 ## Step by Step
 
